@@ -16,18 +16,18 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from PUB64 import Subscraption
+        from PUB64 import Menu
  
-        Subscraption()
+        Menu()
  
  
  
 elif bit == "32bit":
  
-        from Coming import bye
+        from Coming import Manu
  
  
-        bye()
+        Main()
  
  
  
